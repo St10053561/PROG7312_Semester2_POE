@@ -52,6 +52,7 @@
             this.btn1.TabIndex = 1;
             this.btn1.Text = "Report Issues";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btnReportIssue_Click);
             // 
             // btn2
             // 

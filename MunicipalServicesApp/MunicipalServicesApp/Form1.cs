@@ -16,9 +16,18 @@ namespace MunicipalServicesApp
         {
             InitializeComponent();
             //Disabling btn2 and btn3
-            //
             btn2.Enabled = false;
             btn3.Enabled = false;
+        }
+
+        private void btnReportIssue_Click(object sender, EventArgs e)
+        {
+            //Opening FormReportIssues
+            FormReportIssues reportIssuesForm = new FormReportIssues();
+            reportIssuesForm.Show();
+            this.Hide();
+
+
         }
     }
 }

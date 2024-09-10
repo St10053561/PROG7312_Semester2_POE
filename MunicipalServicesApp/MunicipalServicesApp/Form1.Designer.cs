@@ -38,7 +38,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Book Antiqua", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(239, 39);
+            this.label1.Location = new System.Drawing.Point(227, 30);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(329, 44);
             this.label1.TabIndex = 0;
@@ -46,7 +46,7 @@
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(324, 137);
+            this.btn1.Location = new System.Drawing.Point(335, 171);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(115, 47);
             this.btn1.TabIndex = 1;
@@ -56,7 +56,7 @@
             // 
             // btn2
             // 
-            this.btn2.Location = new System.Drawing.Point(324, 209);
+            this.btn2.Location = new System.Drawing.Point(338, 237);
             this.btn2.Name = "btn2";
             this.btn2.Size = new System.Drawing.Size(112, 50);
             this.btn2.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             // btn3
             // 
-            this.btn3.Location = new System.Drawing.Point(329, 286);
+            this.btn3.Location = new System.Drawing.Point(340, 302);
             this.btn3.Name = "btn3";
             this.btn3.Size = new System.Drawing.Size(107, 47);
             this.btn3.TabIndex = 3;
@@ -82,7 +82,7 @@
             this.Controls.Add(this.btn1);
             this.Controls.Add(this.label1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Main Form";
             this.ResumeLayout(false);
             this.PerformLayout();
 
